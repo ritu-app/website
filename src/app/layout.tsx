@@ -44,11 +44,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         >
           Skip to content
         </a>
-        <div className="relative mx-auto min-h-full max-w-[1512px]">
-          <SiteHeader />
-          <main id="main">{children}</main>
-          <SiteFooter />
-        </div>
+        <SiteHeader />
+        <main id="main">
+          <div className="relative mx-auto min-h-full max-w-[1512px]">{children}</div>
+        </main>
+        <SiteFooter />
       </body>
     </html>
   );

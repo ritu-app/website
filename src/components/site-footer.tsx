@@ -4,8 +4,8 @@ import { Logo } from "@/components/logo";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-gradient-to-r from-cream/0 from-[15%] via-cream via-[56%] to-cream px-4 py-7 md:px-[60px] md:py-[57px]">
-      <div className="flex flex-col items-center gap-6 text-center md:flex-row md:items-center md:justify-between md:text-left">
+    <footer className="bg-cream">
+      <div className="mx-auto flex max-w-[1512px] flex-col items-center gap-6 bg-gradient-to-r from-cream/0 from-[15%] via-cream via-[56%] to-cream px-4 py-7 text-center md:flex-row md:items-center md:justify-between md:px-[60px] md:py-[57px] md:text-left">
         <Logo />
         <div className="flex flex-col items-center gap-2 md:flex-row md:gap-x-16">
           <a

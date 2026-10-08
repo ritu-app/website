@@ -10,7 +10,7 @@ const bulletDots = ["/icons/dot-sage.svg", "/icons/dot-honey.svg", "/icons/dot-l
 
 function BulletRow({ items }: { items: readonly string[] }) {
   return (
-    <ul className="mt-6 flex flex-col items-center gap-3 md:mt-10 md:flex-row md:flex-wrap md:gap-x-12 md:gap-y-4 lg:gap-x-[63px]">
+    <ul className="mt-6 flex flex-col items-center gap-3 md:mt-10 md:flex-row md:flex-wrap md:justify-center md:gap-x-12 md:gap-y-4 lg:gap-x-[63px]">
       {items.map((item, index) => (
         <li key={item} className="flex items-center gap-2">
           <img src={bulletDots[index]} alt="" width={12} height={12} />
@@ -54,7 +54,20 @@ function Pill({
 
 export function HomePage() {
   return (
-    <div className="relative overflow-x-clip">
+    <div className="relative overflow-x-clip lg:overflow-visible">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute hidden min-[2082px]:block"
+        style={{
+          top: -120,
+          left: "calc(756px - 50vw)",
+          width: "calc(50vw - 801px)",
+          height: 780,
+          background: "linear-gradient(90deg, #e3e9e1 0%, rgb(227 233 225 / 0) 100%)",
+          maskImage: "linear-gradient(#000 62%, transparent)",
+          WebkitMaskImage: "linear-gradient(#000 62%, transparent)",
+        }}
+      />
       <img
         src="/blobs/hero-left-mobile.svg"
         alt=""

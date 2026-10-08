@@ -24,9 +24,9 @@ export function SiteHeader() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40">
-      <div className="relative z-40 bg-cream md:bg-cream/80 md:backdrop-blur-md">
-        <div className="bg-gradient-to-r from-cream/0 from-[15%] via-cream via-[56%] to-cream px-4 py-4 md:px-[60px] md:py-[30px]">
+    <header className="sticky top-0 z-40 bg-cream md:bg-transparent md:backdrop-blur-md">
+      <div className="relative z-40">
+        <div className="mx-auto max-w-[1512px] bg-gradient-to-r from-cream/0 from-[15%] via-cream via-[56%] to-cream px-4 py-4 md:px-[60px] md:py-[30px]">
           <div className="flex items-center justify-between gap-4">
             <Logo />
             <div className="flex items-center gap-4 lg:gap-[66px]">
