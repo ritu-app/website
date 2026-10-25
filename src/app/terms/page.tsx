@@ -142,8 +142,8 @@ export default function TermsPage() {
         You retain all rights to the data you log in Ritu, including journal entries, cycle dates,
         and daily logs (“Your Content”). Because Ritu stores Your Content on your device and does
         not transmit it to a server we operate, we do not access, host, or claim any license to Your
-        Content. You are solely responsible for Your Content and for maintaining your own backups.
-        See our <a href="/privacy">Privacy Policy</a> for details on optional encrypted backup.
+        Content. You are solely responsible for Your Content. See our{" "}
+        <a href="/privacy">Privacy Policy</a> for how that data stays on your device.
       </p>
 
       <h2>6. No medical advice</h2>

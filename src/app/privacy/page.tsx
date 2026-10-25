@@ -35,14 +35,10 @@ export default function PrivacyPage() {
         </li>
         <li>We do not operate a server that receives, stores, or has access to your health data.</li>
         <li>Nothing you log is sold, shared with advertisers, or used to build a profile of you.</li>
-        <li>
-          Optional backup is end-to-end encrypted and goes to your own cloud storage account (iCloud
-          or Google Drive) — not to us.
-        </li>
+        <li>Nothing you log leaves your device.</li>
         <li>
           Our pattern-recognition features only ever read structured log fields (like mood chip
-          selections). Your written journal entries are never read, scanned, or analyzed by any
-          on-device or cloud process.
+          selections). Your written journal entries are never read, scanned, or analyzed.
         </li>
       </ul>
 
@@ -81,22 +77,6 @@ export default function PrivacyPage() {
               <td>Reminder times, appearance, notification preferences</td>
               <td>No — on-device only</td>
             </tr>
-            <tr>
-              <td>Backup data (optional, user-initiated)</td>
-              <td>An encrypted copy of the above, if you turn on backup</td>
-              <td>
-                Only if you enable it — to your own iCloud/Google Drive account, encrypted before
-                it leaves your device
-              </td>
-            </tr>
-            <tr>
-              <td>Anonymous product analytics</td>
-              <td>
-                App opens, screen views, crash reports — never linked to your health data or
-                identity
-              </td>
-              <td>Yes — in aggregated, de-identified form</td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -129,12 +109,6 @@ export default function PrivacyPage() {
           pattern analysis or Insights.
         </li>
       </ul>
-      <p>
-        Anonymous, aggregated analytics (such as which screens are opened, or anonymized crash
-        reports) may be used to understand app performance and improve the product. This analytics
-        data is never linked to your cycle, mood, sleep, symptom, or journal data, and cannot be
-        used to identify you.
-      </p>
 
       <h2>4. How your data is stored and protected</h2>
       <h3>4.1 On-device storage</h3>
@@ -143,24 +117,14 @@ export default function PrivacyPage() {
         local database (SQLCipher). This data is not transmitted to Ritu&apos;s servers because Ritu
         does not operate a server that stores this information.
       </p>
-      <h3>4.2 Optional backup</h3>
-      <p>
-        If you choose to enable backup, Ritu creates an encrypted copy of your data using
-        AES-256-GCM encryption, protected by a recovery passphrase that only you hold. This
-        encrypted file is saved to a cloud storage account you control (iCloud or Google Drive) or
-        transferred directly between your own devices. We do not have access to your cloud storage
-        account, your recovery passphrase, or the contents of your backup file. If you lose your
-        recovery passphrase, we cannot recover your backup — this is a deliberate trade-off in
-        favor of your privacy.
-      </p>
-      <h3>4.3 Security measures</h3>
+      <h3>4.2 Security measures</h3>
       <p>
         We apply industry-standard safeguards appropriate to an on-device application, including
-        local database encryption, secure storage for any sensitive configuration values, and
-        encrypted backup files. No method of storage or transmission is 100% secure, and while we
-        work to protect your information, we cannot guarantee absolute security.
+        local database encryption and secure storage for any sensitive configuration values. No
+        method of storage is 100% secure, and while we work to protect your information, we cannot
+        guarantee absolute security.
       </p>
-      <h3>4.4 Open source transparency</h3>
+      <h3>4.3 Open source transparency</h3>
       <p>
         Ritu&apos;s source code is open source and publicly available at{" "}
         <a href={links.github} target="_blank" rel="noreferrer">
@@ -184,11 +148,8 @@ export default function PrivacyPage() {
         <li>
           App distribution (Apple App Store, Google Play), which receive standard install/device
           information under their own privacy terms. Ritu is currently free, with no subscription or
-          in-app purchase, so no payment information is collected.
-        </li>
-        <li>
-          Anonymous crash-reporting or analytics infrastructure, which receives only de-identified,
-          aggregated technical data.
+          in-app purchase, so no payment information is collected. Ritu does not send them your
+          cycle, mood, sleep, symptom, or journal data.
         </li>
       </ul>
       <p>
@@ -230,23 +191,12 @@ export default function PrivacyPage() {
               <td>Deletion</td>
               <td>
                 Delete individual entries at any time, or use Settings → Data &amp; Privacy → Delete
-                All Data to permanently erase everything, including backups, from your device.
+                Data to permanently erase everything from your device.
               </td>
             </tr>
             <tr>
               <td>Correction</td>
               <td>Edit any past entry directly, including manually-added period dates.</td>
-            </tr>
-            <tr>
-              <td>Withdraw consent for backup</td>
-              <td>
-                Turn off auto-backup at any time in Settings → Data &amp; Privacy. Previously
-                created backup files remain in your personal cloud storage under your control.
-              </td>
-            </tr>
-            <tr>
-              <td>Opt out of analytics</td>
-              <td>Disable anonymous analytics in Settings → Data &amp; Privacy → Analytics.</td>
             </tr>
           </tbody>
         </table>
@@ -287,7 +237,7 @@ export default function PrivacyPage() {
         <li>
           Where applicable law grants you rights specific to consumer health data (such as the right
           to withdraw consent to collection or to have data deleted), the in-app controls described
-          in Section 6 — particularly “Delete All Data” — are the mechanism for exercising them,
+          in Section 6 — particularly “Delete Data” — are the mechanism for exercising them,
           since we hold no separate copy to act on.
         </li>
       </ul>
@@ -313,23 +263,16 @@ export default function PrivacyPage() {
         If you are located in the European Economic Area, United Kingdom, or Switzerland, the
         General Data Protection Regulation (GDPR) or UK GDPR may apply. Because your health data (a
         “special category” of personal data under Article 9) is processed on your device and not on
-        a server we control, we act, at most, as a processor with respect to any backup file you
-        choose to create — and even then, we cannot access its contents. Where we do process limited
-        data (such as anonymous analytics), our lawful basis is your consent, since Ritu currently
-        has no account, subscription, or paid features that would require processing on a
-        contractual basis. You may exercise your GDPR rights (access, rectification, erasure,
-        restriction, portability, and objection) through the in-app controls in Section 6, or by
-        contacting us.
+        a server we control. We do not receive that data. You may exercise your GDPR rights (access,
+        rectification, erasure, restriction, portability, and objection) through the in-app controls
+        in Section 6, or by contacting us.
       </p>
 
       <h2>11. Data retention</h2>
       <p>
         Your health data (cycle, daily log, mood, and journal entries) remains on your device for as
         long as you keep the app installed, or until you delete it — individually or entirely —
-        using the in-app controls. Encrypted backup files persist in your own cloud storage account
-        according to that provider&apos;s retention settings and your own management of that
-        account. Anonymous analytics data is retained only in aggregated form and is not tied to an
-        individual profile.
+        using the in-app controls.
       </p>
 
       <h2>12. Changes to this policy</h2>
