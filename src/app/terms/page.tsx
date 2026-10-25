@@ -98,12 +98,12 @@ export default function TermsPage() {
             <tr>
               <th scope="row">Cost</th>
               <td>Free to download and use</td>
-              <td>Free — you compile and run it yourself</td>
+              <td>Free - you compile and run it yourself</td>
             </tr>
             <tr>
               <th scope="row">Name, logo, icon</th>
               <td>Licensed to you as part of the app</td>
-              <td>Not licensed — must be replaced before distribution</td>
+              <td>Not licensed - must be replaced before distribution</td>
             </tr>
             <tr>
               <th scope="row">Support</th>
@@ -113,7 +113,7 @@ export default function TermsPage() {
             <tr>
               <th scope="row">Updates</th>
               <td>Automatic via app store</td>
-              <td>Manual — you pull and rebuild</td>
+              <td>Manual - you pull and rebuild</td>
             </tr>
           </tbody>
         </table>
@@ -133,7 +133,7 @@ export default function TermsPage() {
         We may introduce optional paid features in the future (for example, via the Apple App Store,
         Google Play, and a subscription-management provider such as RevenueCat). If we do, we will
         update these Terms and our in-app messaging before any such feature goes live, and use of
-        new paid features will always be optional — the core journaling and pattern-reflection
+        new paid features will always be optional - the core journaling and pattern-reflection
         functionality described in Section 1 is intended to remain free.
       </p>
 
@@ -150,7 +150,7 @@ export default function TermsPage() {
       <p>
         Ritu is a personal journaling and pattern-reflection tool. It is not a medical device, and
         it does not provide medical advice, diagnosis, or treatment. Insights, classifications
-        (Regular/Variable/Unpredictable), and Summary reports reflect patterns in the data you log —
+        (Regular/Variable/Unpredictable), and Summary reports reflect patterns in the data you log -
         they are not clinical assessments and should never be treated as one.
       </p>
       <p>

@@ -179,7 +179,7 @@ export function HomePage() {
           title="A cycle pattern journal built to reflect"
           titleWidth="max-w-[619px]"
           bodyWidth="max-w-[270px]"
-          body="Ritu helps you notice the relationship between your hormones and your day-to-day life energy, mood, sleep, focus, how your body feels — by surfacing patterns in what you've already logged."
+          body="Ritu helps you notice the relationship between your hormones and your day-to-day life energy, mood, sleep, focus, how your body feels - by surfacing patterns in what you've already logged."
         />
         <div className="mx-auto mt-8 flex w-full max-w-[622px] flex-col gap-3.5 md:mt-10 md:gap-6">
           {steps.map((step) => (
@@ -209,7 +209,7 @@ export function HomePage() {
           title="Quiet on the surface. Attentive underneath."
           titleWidth="max-w-[619px]"
           bodyWidth="max-w-[280px]"
-          body="Ritu is built around one daily habit — logging — and a handful of places to make sense of it later."
+          body="Ritu is built around one daily habit - logging - and a handful of places to make sense of it later."
         />
         <FeatureCarousel />
         <div className="relative mx-auto mt-16 hidden max-w-[1240px] md:block">

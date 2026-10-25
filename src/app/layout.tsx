@@ -27,8 +27,8 @@ const dmSerif = DM_Serif_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ritu — Find the rhythm already within you",
-    template: "%s — Ritu",
+    default: "Ritu - Find the rhythm already within you",
+    template: "%s - Ritu",
   },
   description:
     "Ritu helps you track your everyday experiences, reflect on them, and understand patterns across your mood, energy, body, and cycle.",

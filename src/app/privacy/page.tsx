@@ -60,22 +60,22 @@ export default function PrivacyPage() {
             <tr>
               <td>Cycle &amp; period data</td>
               <td>Period start/end dates, cycle length history, phase calculations</td>
-              <td>No — on-device only</td>
+              <td>No - on-device only</td>
             </tr>
             <tr>
               <td>Daily log data</td>
               <td>Mood chip selections, energy level, sleep, body signals you choose to log</td>
-              <td>No — on-device only</td>
+              <td>No - on-device only</td>
             </tr>
             <tr>
               <td>Journal entries</td>
               <td>Free-text reflections you write</td>
-              <td>No — never analyzed by our pattern engine, on-device only</td>
+              <td>No - never analyzed by our pattern engine, on-device only</td>
             </tr>
             <tr>
               <td>Settings &amp; preferences</td>
               <td>Reminder times, appearance, notification preferences</td>
-              <td>No — on-device only</td>
+              <td>No - on-device only</td>
             </tr>
           </tbody>
         </table>
@@ -105,7 +105,7 @@ export default function PrivacyPage() {
           for example with a doctor.
         </li>
         <li>
-          Storing your journal entries for your own private reference — these are never included in
+          Storing your journal entries for your own private reference - these are never included in
           pattern analysis or Insights.
         </li>
       </ul>
@@ -130,8 +130,8 @@ export default function PrivacyPage() {
         <a href={links.github} target="_blank" rel="noreferrer">
           {links.github}
         </a>
-        . This means the claims in this Privacy Policy — in particular, that health data is
-        processed on-device and that no server receives it — are independently verifiable by anyone
+        . This means the claims in this Privacy Policy - in particular, that health data is
+        processed on-device and that no server receives it - are independently verifiable by anyone
         able to review the code, rather than something you have to take on trust alone.
       </p>
 
@@ -176,7 +176,7 @@ export default function PrivacyPage() {
             <tr>
               <td>Access</td>
               <td>
-                All of your data is already on your device, in the app, at all times — there is no
+                All of your data is already on your device, in the app, at all times - there is no
                 separate copy to request.
               </td>
             </tr>
@@ -237,7 +237,7 @@ export default function PrivacyPage() {
         <li>
           Where applicable law grants you rights specific to consumer health data (such as the right
           to withdraw consent to collection or to have data deleted), the in-app controls described
-          in Section 6 — particularly “Delete Data” — are the mechanism for exercising them,
+          in Section 6 - particularly “Delete Data” - are the mechanism for exercising them,
           since we hold no separate copy to act on.
         </li>
       </ul>
@@ -271,7 +271,7 @@ export default function PrivacyPage() {
       <h2>11. Data retention</h2>
       <p>
         Your health data (cycle, daily log, mood, and journal entries) remains on your device for as
-        long as you keep the app installed, or until you delete it — individually or entirely —
+        long as you keep the app installed, or until you delete it - individually or entirely -
         using the in-app controls.
       </p>
 
